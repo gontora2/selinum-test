@@ -8,7 +8,6 @@ options = Options()
 options.add_argument('--headless')
 browser = webdriver.Chrome(options=options) 
 
-url = "http://kane_tes7.dev11-isearch.dga.jp/"
 url = "https://news.google.com/topstories?tab=wn&hl=ja&gl=JP&ceid=JP:ja"
 browser.get(url)
 w = browser.execute_script('return document.body.scrollWidth')
